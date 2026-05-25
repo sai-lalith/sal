@@ -20,7 +20,7 @@
 sal_front_end_code = "sal-wfc-front-end.scm lsal2xml-front-end.scm sal2bool-front-end.scm sal-path-finder-front-end.scm sal-smc-front-end.scm sal-bmc-core-front-end.scm sal-bmc-front-end.scm sal-inf-bmc-front-end.scm sal-script-util.scm sal-deadlock-checker-front-end.scm sal-simulator-front-end.scm sal-wmc-front-end.scm ltl2buchi-front-end.scm sal-emc-front-end.scm sal-path-explorer-front-end.scm sal-atg-core.scm sal-atg-front-end.scm sal-atg-core2.scm"
 sal_scripts = "salenv salenv-safe sal-wfc lsal2xml sal2bool sal-smc sal-bmc sal-inf-bmc sal-path-finder sal-deadlock-checker sal-sim sal-wmc ltl2buchi sal-emc sal-path-explorer sal-atg sal-atg2 sal-sld sal-sc"
 salenv_exec = "salenv-exec"
-ARCH = "arm-apple-darwin24.6.0"
+ARCH = "x86_64-unknown-linux-gnu"
 SALENV_BUILD_MODE= "release"
 EXEEXT=""
 ICS_BIN_DIR=""

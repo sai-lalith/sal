@@ -17,10 +17,7 @@
 /autom4te.cache/
 
 # Generated configure script (keep configure.in as source)
-# /configure
-
-# OS file
-/os
+/configure
 
 # Backup files
 *~

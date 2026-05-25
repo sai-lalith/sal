@@ -4972,51 +4972,56 @@ IDX: 417
 NUM DISCRIMINATORS: 1
 DISCRIMINATORS POSITIONS: (0)
 ----------------------------
-GENERIC: sal-type/esm-memory-layout
+GENERIC: sal-type/esm-composite-size
 IDX: 418
 NUM DISCRIMINATORS: 1
 DISCRIMINATORS POSITIONS: (0)
 ----------------------------
-GENERIC: has-monitor?
+GENERIC: sal-type/esm-memory-layout
 IDX: 419
 NUM DISCRIMINATORS: 1
 DISCRIMINATORS POSITIONS: (0)
 ----------------------------
-GENERIC: esm->scm
+GENERIC: has-monitor?
 IDX: 420
 NUM DISCRIMINATORS: 1
 DISCRIMINATORS POSITIONS: (0)
 ----------------------------
-GENERIC: sal-lhs->access-list
+GENERIC: esm->scm
 IDX: 421
 NUM DISCRIMINATORS: 1
 DISCRIMINATORS POSITIONS: (0)
 ----------------------------
-GENERIC: make-assignment-body
+GENERIC: sal-lhs->access-list
 IDX: 422
+NUM DISCRIMINATORS: 1
+DISCRIMINATORS POSITIONS: (0)
+----------------------------
+GENERIC: make-assignment-body
+IDX: 423
 NUM DISCRIMINATORS: 0
 DISCRIMINATORS POSITIONS: ()
 ----------------------------
 GENERIC: sal-esmc/verify
-IDX: 423
-NUM DISCRIMINATORS: 1
-DISCRIMINATORS POSITIONS: (0)
-----------------------------
-GENERIC: sal-esmc/verify-core
 IDX: 424
 NUM DISCRIMINATORS: 1
 DISCRIMINATORS POSITIONS: (0)
 ----------------------------
-GENERIC: sal-esmc/simulate
+GENERIC: sal-esmc/verify-core
 IDX: 425
+NUM DISCRIMINATORS: 1
+DISCRIMINATORS POSITIONS: (0)
+----------------------------
+GENERIC: sal-esmc/simulate
+IDX: 426
 NUM DISCRIMINATORS: 1
 DISCRIMINATORS POSITIONS: (0)
 ----------------------------
 STATISTICS:
 number of classes: 467
 number of classes which support fast slot access: 465
-number of generic methods: 426
+number of generic methods: 427
 number of static dispatch generic methods: 21
-number of single dispatch generic methods: 367
+number of single dispatch generic methods: 368
 number of double dispatch generic methods: 34
 number of multi dispatch generic methods: 4

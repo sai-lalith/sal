@@ -23,16 +23,16 @@
 #
 # This script creates SAL binary distribution package
 #
-posixos=darwin
+posixos=@posixos@
 salenv_version=3.3
-BIGLOOLIBDIR="/opt/homebrew/Cellar/bigloo/4.6a/lib/bigloo/4.6a"
+BIGLOOLIBDIR="/usr/local/lib/bigloo/4.7b"
 SALENV_STATIC="no"
-ARCH="arm-apple-darwin24.6.0"
+ARCH="x86_64-unknown-linux-gnu"
 SALENV_BUILD_MODE="release"
-DOT_A_LIBS=" /usr/local/lib/libcudd.a /usr/local/lib/libgmp.a "
+DOT_A_LIBS=" /usr/local/lib/libcudd.a /lib/x86_64-linux-gnu/libgmp.a "
 EXEEXT=
 ICS_BIN_DIR=
-YICES_BIN_DIR=/opt/homebrew/bin
+YICES_BIN_DIR=/usr/local/bin
 BUILD_SUBDIR=$ARCH"-"$SALENV_BUILD_MODE
 SALENVDIR="sal-"$salenv_version
 curr_dir=`pwd`
@@ -144,7 +144,7 @@ fi
 echo "Copying etc..."
 cp etc/* $SALENVDIR/etc
 
-bindir=bin/arm-apple-darwin24.6.0-release
+bindir=bin/x86_64-unknown-linux-gnu-release
 
 echo "Copying executables..."
 safe_cp $bindir/salenv-exec $SALENVDIR/bin

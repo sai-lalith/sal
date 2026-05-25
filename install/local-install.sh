@@ -21,9 +21,9 @@
 
 # This script is used to allow the user to execute SAL after executing make.
 # In other words, even if the user does not install SAL, he can execute it locally.
-DOT_A_LIBS=" /usr/local/lib/libcudd.a /usr/local/lib/libgmp.a "
-BIGLOOLIBDIR="/opt/homebrew/Cellar/bigloo/4.6a/lib/bigloo/4.6a"
-ARCH="arm-apple-darwin24.6.0"
+DOT_A_LIBS=" /usr/local/lib/libcudd.a /lib/x86_64-linux-gnu/libgmp.a "
+BIGLOOLIBDIR="/usr/local/lib/bigloo/4.7b"
+ARCH="x86_64-unknown-linux-gnu"
 SALENV_BUILD_MODE="release"
 
 runtime_salenv_dir='$(CDPATH= cd -- "$(dirname "$0")/.." && pwd)'
